@@ -82,4 +82,10 @@ public class ScrabbleTest {
     assertEquals(expected, testScrabble.calculateScore("q"));
     assertEquals(expected, testScrabble.calculateScore("z"));
   }
+
+  public void calculateScore_returnsScoreForWholeWord_8() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 8;
+    assertEquals(expected, testScrabble.calculateScore("word"));
+  }
 }

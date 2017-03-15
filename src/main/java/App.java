@@ -4,7 +4,7 @@ public class App{
   public static void main(String[] args){
     Console myConsole = System.console();
 
-    System.out.println("Enter a letter:");
+    System.out.println("Enter a word:");
     String letterInput = myConsole.readLine();
     Scrabble game = new Scrabble();
 
